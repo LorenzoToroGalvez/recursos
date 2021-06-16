@@ -1,0 +1,35 @@
+.margenes{
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.centrado {
+    padding: 2% 15%;
+}
+
+.centrado2 {
+    padding: 2% 5%;
+}
+
+.centrado3{
+    padding: 2% 25%;
+}
+
+.vl {
+    border-left: 1px solid #e6e6e6;
+    height: auto;
+}
+
+.tablaestilo td, .tablaestilo th {
+    vertical-align: middle;
+    cursor: default;
+}
+
+.botoncitoFiltro {
+    background-color: rgb(163, 219, 117);
+}
+
+.botoncitoFiltro:hover {
+    background-color: rgb(123, 218, 45);
+}
