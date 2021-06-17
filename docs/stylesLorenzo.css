@@ -33,3 +33,7 @@
 .botoncitoFiltro:hover {
     background-color: rgb(123, 218, 45);
 }
+
+.table tbody > tr > td.vert-aligned {
+    vertical-align: middle;
+}
