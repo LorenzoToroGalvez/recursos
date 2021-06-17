@@ -42,8 +42,6 @@ function Activar() {
 	let asistencia2 = document.getElementById("asistencia2");
 	let asistencia3 = document.getElementById("asistencia3");
 	
-	titulo.disabled = true;
-
 	if (radioEventos.checked) {
 		titulo.disabled = false;
 		descripcion.disabled = false;
