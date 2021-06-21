@@ -108,7 +108,7 @@ function Activar() {
 		asistencia3.disabled = false;
 
 		anioevento.value = "";
-		mes.selectedIndex = 0;
+		resetSelectElement(mes);
 		fasedia1.reset();
 		fasedia2.reset();
 		fasedia3.reset();
@@ -122,7 +122,7 @@ function Activar() {
 		etiquetas.reset();
 		
 		anioevento.disabled = true;
-		resetSelectElement(mes);
+		mes.disabled = true;
 		fasedia1.disabled = true;
 		fasedia2.disabled = true;
 		fasedia3.disabled = true;
