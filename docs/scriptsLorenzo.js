@@ -91,6 +91,20 @@ function Activar() {
 		asistencia2.disabled = false;
 		asistencia3.disabled = false;
 
+		anioevento.reset();
+		mes.selectedIndex = 0;
+		fasedia1.reset();
+		fasedia2.reset();
+		fasedia3.reset();
+		fasedia4.reset();
+		preciominimo.reset();
+		preciomaximo.reset();
+		modalidad1.reset();
+		modalidad2.reset();
+		aforo.reset();
+		ciudadevento.selectedIndex = 0;
+		etiquetas.reset();
+		
 		anioevento.disabled = true;
 		mes.disabled = true;
 		fasedia1.disabled = true;
@@ -105,18 +119,6 @@ function Activar() {
 		ciudadevento.disabled = true;
 		etiquetas.disabled = true;
 		
-		anioevento.reset();
-		mes.selectedIndex = 0;
-		fasedia1.reset();
-		fasedia2.reset();
-		fasedia3.reset();
-		fasedia4.reset();
-		preciominimo.reset();
-		preciomaximo.reset();
-		modalidad1.reset();
-		modalidad2.reset();
-		aforo.reset();
-		ciudadevento.selectedIndex = 0;
-		etiquetas.reset();
+
 	}
 }
