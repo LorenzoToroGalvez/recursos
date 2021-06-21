@@ -106,7 +106,7 @@ function Activar() {
 		etiquetas.disabled = true;
 		
 		anioevento.reset();
-		mes.reset();
+		mes.selectedIndex = 0;
 		fasedia1.reset();
 		fasedia2.reset();
 		fasedia3.reset();
@@ -116,7 +116,7 @@ function Activar() {
 		modalidad1.reset();
 		modalidad2.reset();
 		aforo.reset();
-		ciudadevento.reset();
+		ciudadevento.selectedIndex = 0;
 		etiquetas.reset();
 	}
 }
