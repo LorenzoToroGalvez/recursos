@@ -6,21 +6,6 @@ $(document).ready(function(){
     });
 })
 
-function resetSelectElement(selectElement) {
-    var options = selectElement.options;
-
-    // Look for a default selected option
-    for (var i=0, iLen=options.length; i<iLen; i++) {
-
-        if (options[i].defaultSelected) {
-            selectElement.selectedIndex = i;
-            return;
-        }
-    }
-
-    // If no option is the default, select first or none as appropriate
-    selectElement.selectedIndex = 0; // or -1 for no option selected
-}
       
 function Activar() {
 	let radioEventos = document.getElementById("radioEventos");
@@ -106,20 +91,6 @@ function Activar() {
 		asistencia1.disabled = false;
 		asistencia2.disabled = false;
 		asistencia3.disabled = false;
-
-		anioevento.value = "";
-		resetSelectElement(mes);
-		fasedia1.reset();
-		fasedia2.reset();
-		fasedia3.reset();
-		fasedia4.reset();
-		preciominimo.reset();
-		preciomaximo.reset();
-		modalidad1.reset();
-		modalidad2.reset();
-		aforo.reset();
-		ciudadevento.selectedIndex = 0;
-		etiquetas.reset();
 		
 		anioevento.disabled = true;
 		mes.disabled = true;
