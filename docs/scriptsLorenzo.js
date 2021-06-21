@@ -5,6 +5,22 @@ $(document).ready(function(){
             tokenSeparators: ['/',',',';'," "] 
     });
 })
+
+function resetSelectElement(selectElement) {
+    var options = selectElement.options;
+
+    // Look for a default selected option
+    for (var i=0, iLen=options.length; i<iLen; i++) {
+
+        if (options[i].defaultSelected) {
+            selectElement.selectedIndex = i;
+            return;
+        }
+    }
+
+    // If no option is the default, select first or none as appropriate
+    selectElement.selectedIndex = 0; // or -1 for no option selected
+}
       
 function Activar() {
 	let radioEventos = document.getElementById("radioEventos");
@@ -106,7 +122,7 @@ function Activar() {
 		etiquetas.reset();
 		
 		anioevento.disabled = true;
-		mes.disabled = true;
+		resetSelectElement(mes);
 		fasedia1.disabled = true;
 		fasedia2.disabled = true;
 		fasedia3.disabled = true;
