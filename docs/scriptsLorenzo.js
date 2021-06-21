@@ -42,7 +42,6 @@ function Activar() {
 	let asistencia1 = document.getElementById("asistencia1");
 	let asistencia2 = document.getElementById("asistencia2");
 	let asistencia3 = document.getElementById("asistencia3");
-	let select2 = document.getElementsByClassName("select2");
 	
 	if (radioEventos.checked) {
 		titulo.disabled = false;
@@ -92,8 +91,6 @@ function Activar() {
 		asistencia1.disabled = false;
 		asistencia2.disabled = false;
 		asistencia3.disabled = false;
-		
-		select2.selectedIndex = -1;
 		
 		anioevento.disabled = true;
 		mes.disabled = true;
