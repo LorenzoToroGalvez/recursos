@@ -104,5 +104,19 @@ function Activar() {
 		aforo.disabled = true;
 		ciudadevento.disabled = true;
 		etiquetas.disabled = true;
+		
+		anioevento.reset();
+		mes.reset();
+		fasedia1.reset();
+		fasedia2.reset();
+		fasedia3.reset();
+		fasedia4.reset();
+		preciominimo.reset();
+		preciomaximo.reset();
+		modalidad1.reset();
+		modalidad2.reset();
+		aforo.reset();
+		ciudadevento.reset();
+		etiquetas.reset();
 	}
 }
