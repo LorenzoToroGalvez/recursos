@@ -91,7 +91,7 @@ function Activar() {
 		asistencia2.disabled = false;
 		asistencia3.disabled = false;
 
-		anioevento.reset();
+		anioevento.value = "";
 		mes.selectedIndex = 0;
 		fasedia1.reset();
 		fasedia2.reset();
