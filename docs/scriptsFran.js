@@ -2,7 +2,7 @@ let selectRol = document.getElementById("selectRol");
       
 function Activar() {
     let inputOrganizacion = document.getElementById("InputOrganizacion");
-    let rol = selectRol.options[selectRol.selectedIndex].value;
+    let rol = selectRol.options[selectRol.selectedIndex].text;
 
     if(rol === "Creador de Eventos"){
         inputOrganizacion.disabled = false;
