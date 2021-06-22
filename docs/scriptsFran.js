@@ -11,4 +11,5 @@ function Activar() {
     }
 }
 
+selectRol.onchange = Activar;
 selectRol.onselectionchange = Activar;
